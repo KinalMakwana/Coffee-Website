@@ -8,7 +8,7 @@ const About = () => {
     <>
       {/* Hero Section */}
       <div className="about-hero" style={{
-        backgroundImage: "url(/Coffee-Website/assets/image/coffee.jpg)"
+        backgroundImage: "url(/assets/image/coffee.jpg)"
       }}>
         <div className="about-overlay">
           <div className="container">
