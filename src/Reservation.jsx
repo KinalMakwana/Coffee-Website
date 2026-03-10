@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 const Reservation = () => {
     return (
         <>
-            <div className="reservation-hero">
+            <div className="reservation-hero" style={{
+                backgroundImage: `url(${process.env.PUBLIC_URL}/assets/image/coffee.jpg)`
+            }}>
                 <div className="reservation-overlay">
                     <div className="container">
                         <div className="reservation-hero-content">

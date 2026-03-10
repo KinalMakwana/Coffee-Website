@@ -64,7 +64,9 @@ const Contact = () => {
   return (
     <>
       {/* HERO */}
-      <div className="contact-hero">
+      <div className="contact-hero" style={{
+        backgroundImage: `url(${process.env.PUBLIC_URL}/assets/image/coffee.jpg)`
+      }}>
         <div className="contact-overlay">
           <div className="container">
             <div className="contact-hero-content">
@@ -86,7 +88,7 @@ const Contact = () => {
 
             {/* TITLE */}
             <div className="contact-title">
-            <span className="title-line"></span> 
+              <span className="title-line"></span>
               <h4>Contact us</h4>
               <h1>Feel Free To Contact</h1>
             </div>

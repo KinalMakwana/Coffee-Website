@@ -23,7 +23,9 @@ const Testimonial = () => {
 
     return (
         <>
-            <div className="testimonial-hero">
+            <div className="testimonial-hero" style={{
+                backgroundImage: `url(${process.env.PUBLIC_URL}/assets/image/coffee.jpg)`
+            }}>
                 <div className="testimonial-overlay">
                     <div className="container">
                         <div className="testimonial-hero-content">
