@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Coffee-Website/static/js/main.a7c0df11.js",
+    "main.js": "/Coffee-Website/static/js/main.cb6bd7cf.js",
     "index.html": "/Coffee-Website/index.html",
-    "main.a7c0df11.js.map": "/Coffee-Website/static/js/main.a7c0df11.js.map"
+    "main.cb6bd7cf.js.map": "/Coffee-Website/static/js/main.cb6bd7cf.js.map"
   },
   "entrypoints": [
-    "static/js/main.a7c0df11.js"
+    "static/js/main.cb6bd7cf.js"
   ]
 }
