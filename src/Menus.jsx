@@ -8,7 +8,7 @@ const Menus = () => {
         <>
             {/* Hero Section */}
             <div className="menu-hero" style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL}/assets/image/coffee.jpg)`
+                backgroundImage: "url(/Coffee-Website/assets/image/coffee.jpg)"
             }}>
                 <div className="menu-overlay">
                     <div className="container">

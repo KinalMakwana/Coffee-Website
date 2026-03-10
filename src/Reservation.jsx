@@ -6,7 +6,7 @@ const Reservation = () => {
     return (
         <>
             <div className="reservation-hero" style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL}/assets/image/coffee.jpg)`
+                backgroundImage: "url(/Coffee-Website/assets/image/coffee.jpg)"
             }}>
                 <div className="reservation-overlay">
                     <div className="container">

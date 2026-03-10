@@ -7,7 +7,9 @@ const About = () => {
   return (
     <>
       {/* Hero Section */}
-      <div className="about-hero"style={{backgroundImage: `url(${process.env.PUBLIC_URL}/assets/image/coffee.jpg)`}}>
+      <div className="about-hero" style={{
+        backgroundImage: "url(/Coffee-Website/assets/image/coffee.jpg)"
+      }}>
         <div className="about-overlay">
           <div className="container">
             <div className="about-hero-content">

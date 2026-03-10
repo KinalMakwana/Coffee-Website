@@ -9,7 +9,7 @@ const Services = () => {
         <>
             {/* Hero Section */}
             <div className="service-hero" style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL}/assets/image/coffee.jpg)`
+                backgroundImage: "url(/Coffee-Website/assets/image/coffee.jpg)"
             }}>
                 <div className="service-overlay">
                     <div className="container">

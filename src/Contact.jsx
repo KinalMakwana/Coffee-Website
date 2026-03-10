@@ -65,7 +65,7 @@ const Contact = () => {
     <>
       {/* HERO */}
       <div className="contact-hero" style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/assets/image/coffee.jpg)`
+        backgroundImage: "url(/Coffee-Website/assets/image/coffee.jpg)"
       }}>
         <div className="contact-overlay">
           <div className="container">
