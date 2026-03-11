@@ -4,7 +4,7 @@ const Offer = () => {
     return (
         <>
             <div className="offer-main">
-                <img src="assets/image/coffee.jpg" alt="" />
+                <img src={process.env.PUBLIC_URL + "/assets/image/coffee.jpg"} alt="Coffee" />
                 <div className="container">
                     <div className="offer-inner">
                         <div className="offer-text">

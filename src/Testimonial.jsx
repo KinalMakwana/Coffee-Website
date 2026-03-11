@@ -53,7 +53,7 @@ const Testimonial = () => {
                             <div className="client-slider" ref={sliderRef}>
                                 <div className="client-item">
                                     <div className="client-profile">
-                                        <img src="assets/image/testimonial-1.jpg" alt="client" />
+                                       <img src={process.env.PUBLIC_URL + "/assets/image/testimonial-1.jpg"} alt="client" />
                                         <div className="client-info">
                                             <h3>Client Name</h3>
                                             <span>Profession</span>
@@ -67,7 +67,7 @@ const Testimonial = () => {
 
                                 <div className="client-item">
                                     <div className="client-profile">
-                                        <img src="assets/image/testimonial-2.jpg" alt="client" />
+                                       <img src={process.env.PUBLIC_URL + "/assets/image/testimonial-2.jpg"} alt="client" />
                                         <div className="client-info">
                                             <h3>Client Name</h3>
                                             <span>Profession</span>
@@ -81,7 +81,7 @@ const Testimonial = () => {
 
                                 <div className="client-item">
                                     <div className="client-profile">
-                                        <img src="assets/image/testimonial-3.jpg" alt="client" />
+                                       <img src={process.env.PUBLIC_URL + "/assets/image/testimonial-3.jpg"} alt="client" />
                                         <div className="client-info">
                                             <h3>Client Name</h3>
                                             <span>Profession</span>
@@ -95,7 +95,7 @@ const Testimonial = () => {
 
                                 <div className="client-item">
                                     <div className="client-profile">
-                                        <img src="assets/image/testimonial-4.jpg" alt="client" />
+                                       <img src={process.env.PUBLIC_URL + "/assets/image/testimonial-4.jpg"} alt="client" />
                                         <div className="client-info">
                                             <h3>Client Name</h3>
                                             <span>Profession</span>

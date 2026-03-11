@@ -60,8 +60,6 @@ const Header = () => {
                   </ul>
                 </li>
 
-                {/* <li><Link to="/Contact">Contact</Link></li> */}
-                {/* <li><Link to="/Contact" onClick={() => setMenuOpen(false)}>Contact</Link></li> */}
                 <li className="contact-item">
                   <Link to="/Contact" onClick={() => setMenuOpen(false)}>
                     Contact

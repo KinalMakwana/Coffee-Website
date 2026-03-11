@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="footer-main">
         <div className="container">
           <div className="footer-image">
-            <img src="assets/image/coffee.jpg" alt="" />
+           <img src={process.env.PUBLIC_URL + "/assets/image/coffee.jpg"} alt="Coffee" />
           </div>
           <div className="footer-inner">
             <div className="footer-iteminner">
@@ -41,7 +41,7 @@ const Footer = () => {
                 <div className="footer-social">
                   <a href="#" aria-label="Twitter"><TiSocialTwitter /></a>
                   <a href="#" aria-label="Facebook"><TiSocialFacebook /></a>
-                  <a href="#" aria-label="LinkedIn"><TiSocialLinkedin /></a>
+                  <a href="https://www.linkedin.com/in/kinal-makwana/" aria-label="LinkedIn"><TiSocialLinkedin /></a>
                   <a href="#" aria-label="Instagram"><IoLogoInstagram /></a>
                 </div>
               </div>

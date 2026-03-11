@@ -8,7 +8,7 @@ const Book = () => {
                 <div className="container">
                     <div className="book-inner">
                         <div className="book-image">
-                            <img src="assets/image/coffee.jpg" />
+                           <img src={process.env.PUBLIC_URL + "/assets/image/coffee.jpg"} alt="Coffee" />
                         </div>
 
                         <div className="book-text">

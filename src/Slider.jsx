@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 
 const images = [
-    "assets/image/coffee1.jpg",
-    "assets/image/coffee2.jpg",
-    "assets/image/coffee10.jpg",
+    process.env.PUBLIC_URL + "/assets/image/coffee1.jpg",
+    process.env.PUBLIC_URL + "/assets/image/coffee2.jpg",
+    process.env.PUBLIC_URL + "/assets/image/coffee10.jpg",
 ];
 
 const Slider = () => {

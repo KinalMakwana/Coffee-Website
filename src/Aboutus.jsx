@@ -35,7 +35,7 @@ const Aboutus = () => {
 
                             {/* Center Image */}
                             <div className="about-center">
-                                <img src="assets/image/about.png" alt="Coffee" />
+                                <img src={process.env.PUBLIC_URL + "/assets/image/about.png"} alt="Coffee" />
                             </div>
 
                             {/* Right Section */}
